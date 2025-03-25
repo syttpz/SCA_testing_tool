@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "side_channeling_module")(type "KiCad")(uri "E:/Document/kicadProject/Lib/side_channeling_module.kicad_sym")(options "")(descr ""))
+)
