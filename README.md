@@ -1,4 +1,4 @@
-# SCA_testing_tool
+# Side Channeling - Correlational power analysis
 
 
 A simple, low-cost toolkit for side-channel power analysis on embedded systems using ESP32-C6 and STM32.
