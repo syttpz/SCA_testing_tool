@@ -1,7 +1,19 @@
-# Side Channeling - Correlational power analysis
+# Side Channel Attack Project - Correlational power analysis
 
 
-A simple, low-cost toolkit for side-channel power analysis on embedded systems using ESP32-C6 and STM32.
+A low-cost setup using an ADC and an instrumentation amplifier to measure minimal power changes on an STM32 while it runs AES encryption. We analyze the traces in Python to visualize leakage and demonstrate simple key-recovery.
+
+## Hardware
+
+- XIAO-SEEED ESP32-C6
+- ADS7883
+- INA333
+- STM32F103C8 (target)
+
+# Wiring
+
+![Screenshot](./screenshot.png)
+
 
 ## Features
 
@@ -10,21 +22,8 @@ A simple, low-cost toolkit for side-channel power analysis on embedded systems u
 - UART communication for plaintext exchange
 - Correlation Power Analysis (CPA) in Python
 
-## Hardware
-
-- ESP32-C6 (XIAO)
-- ADS7883 ADC
-- INA333 amplifier
-- STM32F103C8 (target)
 
 ## Usage
 
-1. Flash STM32 with AES + trigger code
-2. Flash ESP32 with SPI sampling + UART listener
-3. Send plaintext over UART from STM32
-4. Trigger and collect traces on ESP32
-5. Run CPA script on collected data
 
-## License
 
-MIT License – for educational use only
