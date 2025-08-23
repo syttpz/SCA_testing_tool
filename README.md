@@ -12,7 +12,7 @@ A low-cost setup using an ADC and an instrumentation amplifier to measure minima
 
 # Wiring
 
-![Screenshot](./screenshot.png)
+![Screenshot](./screenshot.jpg)
 
 
 ## Features
