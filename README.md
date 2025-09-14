@@ -1,4 +1,4 @@
-# Side Channel Attack Project - Correlational power analysis
+# Side Channel Attack - Correlational power analysis
 
 
 A low-cost setup using an ADC and an instrumentation amplifier to measure minimal power changes on an STM32 while it runs AES encryption. We analyze the traces in Python to visualize leakage and demonstrate simple key-recovery.
